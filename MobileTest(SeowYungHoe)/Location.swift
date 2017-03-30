@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import SwiftyJSON
+
+class Location {
+    
+    var area : String?
+    var city : String?
+    
+    init(json: JSON) {
+        
+        area = json["area"].stringValue
+        city = json["city"].stringValue
+    }
+    
+}

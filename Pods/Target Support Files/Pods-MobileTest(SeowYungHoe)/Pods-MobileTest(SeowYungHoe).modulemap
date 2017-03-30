@@ -1,0 +1,6 @@
+framework module Pods_MobileTest_SeowYungHoe_ {
+  umbrella header "Pods-MobileTest(SeowYungHoe)-umbrella.h"
+
+  export *
+  module * { export * }
+}

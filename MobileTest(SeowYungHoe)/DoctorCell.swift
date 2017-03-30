@@ -9,6 +9,22 @@
 import UIKit
 
 class DoctorCell: UITableViewCell {
+    
+    //Outlets
+    @IBOutlet weak var doctorImageView: UIImageView!
+    @IBOutlet weak var doctorNameLabel: UILabel!
+    @IBOutlet weak var doctorAreaLabel: UILabel!
+    @IBOutlet weak var doctorSpecialityLabel: UILabel!
+    @IBOutlet weak var currencyLabel: UILabel!
+    @IBOutlet weak var rateLabel: UILabel!
+    
+    
+    
+    
+    
+    
+    static let cellIdentifier = "DoctorCell"
+    static let cellNib = UINib(nibName: "DoctorCell", bundle: Bundle.main)
 
     override func awakeFromNib() {
         super.awakeFromNib()

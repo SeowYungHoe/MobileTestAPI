@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A844869FF5D5BE73D3A88869 /* Pods_MobileTest_SeowYungHoe_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A866684016E0565CE67FCCFF /* Pods_MobileTest_SeowYungHoe_.framework */; };
+		C005F81C1E8BFF5F00524B0D /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005F81A1E8BFF5F00524B0D /* DoctorCell.swift */; };
+		C005F81D1E8BFF5F00524B0D /* DoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C005F81B1E8BFF5F00524B0D /* DoctorCell.xib */; };
+		C01011391E8C6E2100F8D923 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01011381E8C6E2100F8D923 /* CoreLocation.framework */; };
+		C010113B1E8C6E2600F8D923 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C010113A1E8C6E2600F8D923 /* MapKit.framework */; };
 		C05CDE2F1E8B71880063DCC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CDE2E1E8B71880063DCC9 /* AppDelegate.swift */; };
-		C05CDE311E8B71880063DCC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CDE301E8B71880063DCC9 /* ViewController.swift */; };
+		C05CDE311E8B71880063DCC9 /* SearchDoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CDE301E8B71880063DCC9 /* SearchDoctorsViewController.swift */; };
 		C05CDE341E8B71880063DCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05CDE321E8B71880063DCC9 /* Main.storyboard */; };
 		C05CDE361E8B71880063DCC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05CDE351E8B71880063DCC9 /* Assets.xcassets */; };
 		C05CDE391E8B71880063DCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05CDE371E8B71880063DCC9 /* LaunchScreen.storyboard */; };
+		C06F24311E8B87ED00C4743B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F24301E8B87ED00C4743B /* Location.swift */; };
+		C06F24331E8BC7F000C4743B /* DoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F24321E8BC7EF00C4743B /* DoctorListViewController.swift */; };
+		C0BEC37E1E8BCE8E00E311E4 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BEC37D1E8BCE8E00E311E4 /* Doctor.swift */; };
+		C0D324841E8C118B008526A8 /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D324831E8C118B008526A8 /* DoctorProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15065BE7DAB8D4B7F8909719 /* Pods-MobileTest(SeowYungHoe).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTest(SeowYungHoe).debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileTest(SeowYungHoe)/Pods-MobileTest(SeowYungHoe).debug.xcconfig"; sourceTree = "<group>"; };
+		A866684016E0565CE67FCCFF /* Pods_MobileTest_SeowYungHoe_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileTest_SeowYungHoe_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5466842FA15A6200937B02 /* Pods-MobileTest(SeowYungHoe).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTest(SeowYungHoe).release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileTest(SeowYungHoe)/Pods-MobileTest(SeowYungHoe).release.xcconfig"; sourceTree = "<group>"; };
+		C005F81A1E8BFF5F00524B0D /* DoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
+		C005F81B1E8BFF5F00524B0D /* DoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCell.xib; sourceTree = "<group>"; };
+		C01011381E8C6E2100F8D923 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C010113A1E8C6E2600F8D923 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C05CDE2B1E8B71880063DCC9 /* MobileTest(SeowYungHoe).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileTest(SeowYungHoe).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05CDE2E1E8B71880063DCC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C05CDE301E8B71880063DCC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C05CDE301E8B71880063DCC9 /* SearchDoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDoctorsViewController.swift; sourceTree = "<group>"; };
 		C05CDE331E8B71880063DCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C05CDE351E8B71880063DCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C05CDE381E8B71880063DCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C05CDE3A1E8B71880063DCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06F24301E8B87ED00C4743B /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C06F24321E8BC7EF00C4743B /* DoctorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorListViewController.swift; sourceTree = "<group>"; };
+		C0BEC37D1E8BCE8E00E311E4 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		C0D324831E8C118B008526A8 /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C010113B1E8C6E2600F8D923 /* MapKit.framework in Frameworks */,
+				C01011391E8C6E2100F8D923 /* CoreLocation.framework in Frameworks */,
+				A844869FF5D5BE73D3A88869 /* Pods_MobileTest_SeowYungHoe_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D015ED1BE34E8331CEA4044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C010113A1E8C6E2600F8D923 /* MapKit.framework */,
+				C01011381E8C6E2100F8D923 /* CoreLocation.framework */,
+				A866684016E0565CE67FCCFF /* Pods_MobileTest_SeowYungHoe_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAE7149D8131FB903CFD3ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15065BE7DAB8D4B7F8909719 /* Pods-MobileTest(SeowYungHoe).debug.xcconfig */,
+				AE5466842FA15A6200937B02 /* Pods-MobileTest(SeowYungHoe).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C005F81E1E8C031A00524B0D /* Page 2 */ = {
+			isa = PBXGroup;
+			children = (
+				C005F81A1E8BFF5F00524B0D /* DoctorCell.swift */,
+				C005F81B1E8BFF5F00524B0D /* DoctorCell.xib */,
+				C0BEC37D1E8BCE8E00E311E4 /* Doctor.swift */,
+				C06F24321E8BC7EF00C4743B /* DoctorListViewController.swift */,
+			);
+			name = "Page 2";
+			sourceTree = "<group>";
+		};
 		C05CDE221E8B71880063DCC9 = {
 			isa = PBXGroup;
 			children = (
 				C05CDE2D1E8B71880063DCC9 /* MobileTest(SeowYungHoe) */,
 				C05CDE2C1E8B71880063DCC9 /* Products */,
+				BAE7149D8131FB903CFD3ED6 /* Pods */,
+				3D015ED1BE34E8331CEA4044 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				C05CDE2E1E8B71880063DCC9 /* AppDelegate.swift */,
-				C05CDE301E8B71880063DCC9 /* ViewController.swift */,
+				C05CDE301E8B71880063DCC9 /* SearchDoctorsViewController.swift */,
+				C06F24301E8B87ED00C4743B /* Location.swift */,
 				C05CDE321E8B71880063DCC9 /* Main.storyboard */,
+				C0D324831E8C118B008526A8 /* DoctorProfileViewController.swift */,
+				C005F81E1E8C031A00524B0D /* Page 2 */,
 				C05CDE351E8B71880063DCC9 /* Assets.xcassets */,
 				C05CDE371E8B71880063DCC9 /* LaunchScreen.storyboard */,
 				C05CDE3A1E8B71880063DCC9 /* Info.plist */,
@@ -71,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C05CDE3D1E8B71880063DCC9 /* Build configuration list for PBXNativeTarget "MobileTest(SeowYungHoe)" */;
 			buildPhases = (
+				ABD458BBA9BDC8CE7996C2FA /* [CP] Check Pods Manifest.lock */,
 				C05CDE271E8B71880063DCC9 /* Sources */,
 				C05CDE281E8B71880063DCC9 /* Frameworks */,
 				C05CDE291E8B71880063DCC9 /* Resources */,
+				85B348F4972113BF1CCA380A /* [CP] Embed Pods Frameworks */,
+				95B2B28EDE848EB7F7B1F051 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +187,73 @@
 			files = (
 				C05CDE391E8B71880063DCC9 /* LaunchScreen.storyboard in Resources */,
 				C05CDE361E8B71880063DCC9 /* Assets.xcassets in Resources */,
+				C005F81D1E8BFF5F00524B0D /* DoctorCell.xib in Resources */,
 				C05CDE341E8B71880063DCC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85B348F4972113BF1CCA380A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileTest(SeowYungHoe)/Pods-MobileTest(SeowYungHoe)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B2B28EDE848EB7F7B1F051 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileTest(SeowYungHoe)/Pods-MobileTest(SeowYungHoe)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD458BBA9BDC8CE7996C2FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C05CDE271E8B71880063DCC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C05CDE311E8B71880063DCC9 /* ViewController.swift in Sources */,
+				C005F81C1E8BFF5F00524B0D /* DoctorCell.swift in Sources */,
+				C05CDE311E8B71880063DCC9 /* SearchDoctorsViewController.swift in Sources */,
+				C0BEC37E1E8BCE8E00E311E4 /* Doctor.swift in Sources */,
+				C0D324841E8C118B008526A8 /* DoctorProfileViewController.swift in Sources */,
+				C06F24311E8B87ED00C4743B /* Location.swift in Sources */,
 				C05CDE2F1E8B71880063DCC9 /* AppDelegate.swift in Sources */,
+				C06F24331E8BC7F000C4743B /* DoctorListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +372,7 @@
 		};
 		C05CDE3E1E8B71880063DCC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15065BE7DAB8D4B7F8909719 /* Pods-MobileTest(SeowYungHoe).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N77YP5N6T6;
@@ -270,6 +386,7 @@
 		};
 		C05CDE3F1E8B71880063DCC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5466842FA15A6200937B02 /* Pods-MobileTest(SeowYungHoe).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N77YP5N6T6;
@@ -300,6 +417,7 @@
 				C05CDE3F1E8B71880063DCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
